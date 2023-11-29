@@ -112,3 +112,40 @@ header.sticky{
 .sticky.logo{
     color: var(--text-color);
 }
+.about p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section {
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.sticky.navbar a{
+    color: var(--text-color);
+}
+.galery-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 50px;
+}
+.col-content{
+    position: relative;   
+}
+.col-content img:hover{
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.04);
+    cursor: pointer;
+}
